@@ -1,0 +1,6 @@
+.DS_Store
+bower_components
+dist
+node_modules
+package.json
+project.json
