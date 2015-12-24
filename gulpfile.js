@@ -57,6 +57,7 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.toggler.js',
     'bower_components/foundation-sites/js/foundation.tooltip.js',
     'bower_components/foundation-datepicker/js/foundation-datepicker.js',
+    'bower_components/smooth-scroll.js/dist/js/smooth-scroll.js',
     'src/assets/js/**/*.js',
     'src/assets/js/app.js'
   ]
