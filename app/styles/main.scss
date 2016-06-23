@@ -1,19 +1,8 @@
+@import 'settings';
+
 // bower:scss
 @import 'bower_components/foundation-sites/scss/foundation.scss';
 // endbower
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-@charset 'utf-8';
-
-@import 'settings';
-@import 'foundation';
-@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -50,16 +39,17 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 
-@include motion-ui-transitions;
-@include motion-ui-animations;
-
-@import 'font-awesome.scss';
-@import 'foundation-datepicker.scss';
-
 
 // ================
 // Base Definitions
 // ================
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
 h2 {
   text-align: center;
 }

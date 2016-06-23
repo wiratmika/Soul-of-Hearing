@@ -21,20 +21,21 @@
         "./fonts/*"
       ]
     },
-    "foundation": {
+    "foundation-sites": {
       "main": [
-        "bower_components/foundation-sites/js/foundation.core.js",
-        "bower_components/foundation-sites/js/foundation.util.*.js",
-        "bower_components/foundation-sites/js/foundation.dropdown.js",
-        "bower_components/foundation-sites/js/foundation.dropdownMenu.js",
-        "bower_components/foundation-sites/js/foundation.orbit.js",
-        "bower_components/foundation-sites/js/foundation.responsiveMenu.js",
-        "bower_components/foundation-sites/js/foundation.responsiveToggle.js"
+        "./scss/foundation.scss",
+        "./js/foundation.core.js",
+        "./js/foundation.util.*.js",
+        "./js/foundation.dropdown.js",
+        "./js/foundation.dropdownMenu.js",
+        "./js/foundation.orbit.js",
+        "./js/foundation.responsiveMenu.js",
+        "./js/foundation.responsiveToggle.js"
       ]
     },
     "smooth-scroll.js": {
       "main": [
-        "bower_components/smooth-scroll.js/dist/js/smooth-scroll.js"
+        "./dist/js/smooth-scroll.js"
       ]
     }
   }

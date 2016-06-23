@@ -15,13 +15,7 @@ gulp.task('styles', () => {
     .pipe($.sass.sync({
       outputStyle: 'expanded',
       precision: 10,
-      includePaths: [
-        '.',
-        'bower_components/foundation-sites/scss',
-        'bower_components/motion-ui/src/',
-        'bower_components/foundation-datepicker/css',
-        'bower_components/font-awesome/scss'
-      ]
+      includePaths: ['.', 'bower_components/foundation-sites/scss']
     }).on('error', $.sass.logError))
     .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
     .pipe($.sourcemaps.write())
@@ -165,7 +159,6 @@ gulp.task('wiredep', () => {
 
   gulp.src('app/*.html')
     .pipe(wiredep({
-      exclude: ['foundation.css'], // for custom-built foundation
       ignorePath: /^(\.\.\/)*\.\./
     }))
     .pipe(gulp.dest('app'));
