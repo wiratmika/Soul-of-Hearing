@@ -1,8 +1,5 @@
-.DS_Store
-bower_components
-CHANGELOG.md
-dist
 node_modules
-package.json
-project.json
-readme.md
+dist
+.tmp
+bower_components
+test/bower_components
